@@ -1,8 +1,6 @@
-
+# ссылка на задачу https://www.codewars.com/kata/53fc954904a45eda6b00097f/python 
 
 #6kyu
-
-
 class Filter:
     def __init__(self, total: int):
         self.list_of_numbers = []
@@ -46,11 +44,9 @@ class Filter:
         index_stop = self.list_of_numbers.index(stop)
         return self.list_of_numbers[index_start:index_stop+1]
 
-
-
-
 dd = Filter(5)
 print(dd.add_numbers())
+
 #print(dd.even())
 #print(dd.odd())
 #print(dd.under(17))
