@@ -12,7 +12,7 @@ class Filter:
             n = int(input('Введите число от 1 до 50: '))
             if n > 50:
                print(f'{n} не в рамках диапазона, введите корректное число')
-
+               i -= 1
             else:
                 self.list_of_numbers.append(n)
         return self.list_of_numbers
